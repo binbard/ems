@@ -1,13 +1,19 @@
+---
 ![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
-========
-
-# Employee Management System 
+*Employee Management System
+---
 
 This is a minimal EMS with nice GUI.
 
 ## Description
 
-You can fork this repo and work upon it as a project under team work
+You can fork this repo and work upon it as a project under team
+---
+![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
+![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
+![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
+![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
+![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
 
 ## Getting Started
 
