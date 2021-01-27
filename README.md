@@ -9,7 +9,6 @@ This is a minimal EMS with nice GUI.
 
 You can fork this repo and work upon it as a project under team
 ---
-![ICON](/logo.ico)
 ![main.py](/snapshots/main.png)
 ![showall.py](/snapshots/showall.png)
 ![addrecord.py](/snapshots/addrecord.png)
