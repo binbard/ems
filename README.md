@@ -8,6 +8,7 @@ This is a minimal EMS with nice GUI.
 ## Description
 
 You can fork this repo and work upon it as a project under team
+-------------------------------------------------------
 ---
 ![main.py](/snapshots/main.png)
 ![showall.py](/snapshots/showall.png)
@@ -17,7 +18,7 @@ You can fork this repo and work upon it as a project under team
 ![delete.py](/snapshots/delete.png)
 ![credits.py](/snapshots/credits.png)
 ---
-
+-------------------------------------------------------
 
 ## Getting Started
 
