@@ -32,7 +32,7 @@ snapshots #workspeaks
 * csv
 
 ### Downloading and Executing
-* Download or fork&download the repo
+* Download the repo
 * Run the main.py file
 
 ## Help
