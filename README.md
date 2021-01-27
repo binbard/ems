@@ -1,4 +1,4 @@
-![ICON](https://raw.githubusercontent.com/harshitjawla/employee-magagement-csv/main/logo.ico)
+![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
 ========
 
 # Employee Management System 
