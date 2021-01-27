@@ -17,6 +17,7 @@ You can fork this repo and work upon it as a project under team
 ![edit.py](/snapshots/edit.png)
 ![delete.py](/snapshots/delete.png)
 ![credits.py](/snapshots/credits.png)
+---
 
 
 ## Getting Started
