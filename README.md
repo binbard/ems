@@ -1,5 +1,5 @@
 ---
-![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
+![ICON](/logo.ico)
 *Employee Management System
 ---
 
@@ -9,11 +9,15 @@ This is a minimal EMS with nice GUI.
 
 You can fork this repo and work upon it as a project under team
 ---
-![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
-![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
-![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
-![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
-![ICON](https://raw.githubusercontent.com/harshitjawla/ems/main/logo.ico)
+![ICON](/logo.ico)
+![main.py](/snapshots/main.png)
+![showall.py](/snapshots/showall.png)
+![addrecord.py](/snapshots/addrecord.png)
+![searchrec.py](/snapshots/searchrec.png)
+![edit.py](/snapshots/edit.png)
+![delete.py](/snapshots/delete.png)
+![credits.py](/snapshots/credits.png)
+
 
 ## Getting Started
 
