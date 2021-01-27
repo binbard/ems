@@ -7,20 +7,21 @@ This is a minimal EMS with nice GUI.
 
 ## Description
 
-You can fork this repo and work upon it as a project under team
+snapshots #workspeaks
+
 -------------------------------------------------------
 ---
 ![main.py](/snapshots/main.png)
 ![showall.py](/snapshots/showall.png)
--------------------------------------------------------
+---
 ![addrecord.py](/snapshots/addrecord.png)
 ![searchrec.py](/snapshots/searchrec.png)
--------------------------------------------------------
+---
 ![edit.py](/snapshots/edit.png)
 ![delete.py](/snapshots/delete.png)
 ![credits.py](/snapshots/credits.png)
 ---
--------------------------------------------------------
+---
 
 ## Getting Started
 
