@@ -23,30 +23,33 @@ snapshots #workspeaks
 ---
 ---
 
-## Getting Started
+## Getting Started:
 
-### Dependencies
+
+## Dependencies
 
 * python3
 * tkinter
 
-### Downloading and Executing
+## Downloading and Executing
 * Download the repo
 * Run the main.py file
 
-## Help
+---
+
+### Help
 
 Feel free to post any issue.
 
-## Contribution
+### Contribution
 
 Your contrution is fully welcomed. A little contibution too helps the project improve.
 
 
-## Version History
+### Version History
 
 N/A
 
-## License
+### License
 
 This project is licensed under the [AGPLv3] License - see the LICENSE.md file for details
