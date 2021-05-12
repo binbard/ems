@@ -29,7 +29,6 @@ snapshots #workspeaks
 
 * python3
 * tkinter
-* csv
 
 ### Downloading and Executing
 * Download the repo
