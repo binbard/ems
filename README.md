@@ -37,17 +37,12 @@ snapshots #workspeaks
 
 ## Help
 
-Your advise/help is welcome. Post it under issues
+Feel free to post any issue.
 
 ## Contribution
 
 Your contrution is fully welcomed. A little contibution too helps the project improve.
 
-## Authors
-
-Contributors names and contact info
-
-N/A
 
 ## Version History
 
