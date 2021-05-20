@@ -9,7 +9,7 @@ This is a minimal EMS with nice GUI.
 
 snapshots #workspeaks
 
--------------------------------------------------------
+---
 ---
 ![main.py](/snapshots/main.png)
 ![showall.py](/snapshots/showall.png)
@@ -37,6 +37,12 @@ snapshots #workspeaks
 
 ---
 
+## To do's
+
+- [ ] Make onefile executable (.exe) for release. <br> [Hint: pyinstaller || py2exe ]
+
+---
+
 ### Help
 
 Feel free to post any issue.
@@ -44,11 +50,6 @@ Feel free to post any issue.
 ### Contribution
 
 Your contrution is fully welcomed. A little contibution too helps the project improve.
-
-
-### Version History
-
-N/A
 
 ### License
 
