@@ -53,4 +53,4 @@ Your contrution is fully welcomed. A little contibution too helps the project im
 
 ### License
 
-This project is licensed under the [AGPLv3] License - see the LICENSE.md file for details
+This project is licensed under the [AGPLv3] License - see the LICENSE.md file for details.
