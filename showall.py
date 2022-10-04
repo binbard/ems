@@ -2,6 +2,7 @@
 
 from tkinter import *
 import csv
+import os
 
 global canvas
 win1=Tk()
@@ -9,7 +10,10 @@ win1.title("EMS - Show all Employees")
 win1.geometry("450x360")
 win1.config(bg="orange")
 win1.resizable(0,0)
-win1.iconbitmap("logo.ico")
+if "nt" == os.name:
+    win1.wm_iconbitmap("logo.ico")
+else:
+    win1.wm_iconbitmap("@logo.xbm")
 frame=Frame(win1)
 frame.pack()
 yscrollbar = Scrollbar(frame, orient='vertical',command=lambda *args: onscroll('y-axis', *args))
