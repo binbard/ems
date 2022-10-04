@@ -1,4 +1,4 @@
-﻿# Add records
+﻿# Add new employee 
 
 from tkinter import messagebox
 from tkinter import *
