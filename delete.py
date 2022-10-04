@@ -1,4 +1,4 @@
-﻿# Delete records
+﻿# Delete employee details
 
 from tkinter import ttk
 from tkinter import *

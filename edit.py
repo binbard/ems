@@ -1,4 +1,4 @@
-﻿# Edit records
+﻿# Edit employee details
 
 from tkinter import ttk, messagebox
 from tkinter import *

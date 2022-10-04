@@ -1,4 +1,4 @@
-﻿# Show all records
+﻿# Show all employee
 
 from tkinter import *
 import csv

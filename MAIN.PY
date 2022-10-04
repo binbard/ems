@@ -1,4 +1,4 @@
-﻿# © Harshit Jawla
+﻿# Main file
 
 from tkinter import *
 import csv
@@ -8,8 +8,8 @@ file=open("records.csv","a")
 file.close()
 def close():
     win.destroy()
-def credit():
-    os.system("python credits.py")
+def about():
+    os.system("python about.py")
 def showall():
     os.system("python showall.py")
 def edit():
@@ -46,7 +46,7 @@ b4=Button(win,text="Edit Record",bg="white",fg="brown",border=5,relief="raise",f
 b4.pack(pady=8)
 b5=Button(win,text="Delete Record",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=delete)
 b5.pack(pady=8)
-b6=Button(win,text="Credits",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=credit)
+b6=Button(win,text="About",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=about)
 b6.pack(pady=8)
 b7=Button(win,text="Quit",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=close)
 b7.pack(pady=8)

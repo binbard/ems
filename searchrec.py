@@ -1,4 +1,4 @@
-﻿# Search records
+﻿# Search employee
 
 from tkinter import ttk
 from tkinter import *
