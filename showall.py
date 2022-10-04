@@ -1,4 +1,4 @@
-﻿# © Harshit Jawla
+﻿# Show all records
 
 from tkinter import *
 import csv
