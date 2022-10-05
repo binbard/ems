@@ -2,6 +2,7 @@
 
 from tkinter import *
 import random
+import os
 
 colors=["red","blue","green"]
 def click():
@@ -12,7 +13,10 @@ win=Tk()
 win.title("EMS - About")
 win.config(bg="white")
 win.resizable(0,0)
-win.iconbitmap("logo.ico")
+if "nt" == os.name:
+    win.wm_iconbitmap("logo.ico")
+else:
+    win.wm_iconbitmap("@logo.xbm")
 win.geometry("350x200")
 label=Label(win,font=('Segoe Print',14,'bold'),bg='white')
 label.pack()

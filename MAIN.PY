@@ -34,7 +34,10 @@ win.title("EMS")
 win.geometry("350x450")
 win.config(bg="orange")
 win.resizable(0,0)
-win.iconbitmap("logo.ico")
+if "nt" == os.name:
+    win.wm_iconbitmap("logo.ico")
+else:
+    win.wm_iconbitmap("@logo.xbm")
 Label(win,text="Employee Management System",bg="brown",fg="white",font=("Georgia",16)).pack(pady=10)
 b1=Button(win,text="Show all Records",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=showall)
 b1.pack(pady=8)
