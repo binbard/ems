@@ -3,6 +3,7 @@
 from tkinter import ttk, messagebox
 from tkinter import *
 import csv
+import os
 
 global eid,name,dept,salary,win
 def update():
@@ -61,7 +62,10 @@ def main():
     win.geometry("350x80")
     win.config(bg="orange")
     win.resizable(0,0)
-    win.iconbitmap("logo.ico")
+    if "nt" == os.name:
+        win.wm_iconbitmap("logo.ico")
+    else:
+        win.wm_iconbitmap("@logo.xbm")
     eid=StringVar()
     name=StringVar()
     dept=StringVar()

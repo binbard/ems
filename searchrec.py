@@ -4,6 +4,7 @@ from tkinter import ttk
 from tkinter import *
 from tkinter import messagebox
 import csv
+import os
 
 global eid,name,dept,salary,win
 def close():
@@ -41,7 +42,10 @@ def main():
     win.title("EMS - Search Employee")
     win.geometry("350x80")
     win.config(bg="orange")
-    win.iconbitmap("logo.ico")
+    if "nt" == os.name:
+        win.wm_iconbitmap("logo.ico")
+    else:
+        win.wm_iconbitmap("@logo.xbm")
     win.resizable(0,0)
     eid=StringVar()
     name=StringVar()
