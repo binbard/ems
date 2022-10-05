@@ -13,12 +13,12 @@ def add():
     dept=ele[2].get()
     salary=ele[3].get()
     if eid=="" or name=="" or dept=="" or salary=="":
-        messagebox.showinfo("CSV","Please Fill All Feilds")
+        messagebox.showinfo("CSV","Please fill all fields")
     else:
         file=open("records.csv","a")
         csv_writer = csv.writer(file,delimiter=",",lineterminator="\n")
         csv_writer.writerow([eid,name,dept,salary])
-        ans=messagebox.askquestion("CSV","Record Added Sucessfully\nWant to Add More ? ")
+        ans=messagebox.askquestion("CSV","Record Added Sucessfully!\nWould you like to add another? ")
         if ans=="yes":
             win.destroy()
             file.close()
@@ -53,7 +53,7 @@ def main():
     Label(win,text="Emp. Code:",bg="white",fg="brown",font=("Georgia",12)).place(x=30,y=50)
     Label(win,text="Name:",bg="white",fg="brown",font=("Georgia",12)).place(x=30,y=90)
     Label(win,text="Department:",bg="white",fg="brown",font=("Georgia",12)).place(x=30,y=130)
-    Label(win,text="Salary (in k):",bg="white",fg="brown",font=("Georgia",12)).place(x=30,y=170)
+    Label(win,text="Salary (in K):",bg="white",fg="brown",font=("Georgia",12)).place(x=30,y=170)
     ele[0]=Entry(win,textvariable=eid)
     ele[0].place(x=140,y=50)
     ele[1]=Entry(win,textvariable=name)

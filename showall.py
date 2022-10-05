@@ -3,6 +3,12 @@
 from tkinter import *
 import csv
 
+def onscroll(axis, *args):
+    if axis == 'y-axis':
+        canvas.yview(*args)
+    elif axis == 'x-axis':
+        canvas.xview(*args)
+
 global canvas
 win1=Tk()
 win1.title("EMS - Show all Employees")
@@ -33,5 +39,5 @@ with open("records.csv") as file:
         Label(main_frame,text=i[2],bg="white",fg="brown",font=("Georgia",12)).grid(row=row_value,column=2)
         Label(main_frame,text=i[3],bg="white",fg="brown",font=("Georgia",12)).grid(row=row_value,column=3)
         row_value+=1
-   
+        
 win1.mainloop()
