@@ -25,7 +25,7 @@ def update():
     write=csv.writer(file,delimiter=",",lineterminator="\n")
     write.writerows(data)
     file.close()
-    messagebox.showinfo("CSV","Data Updated Sucessfully")
+    messagebox.showinfo("CSV","Data has been updated sucessfully!")
     win.geometry("350x80")
     eid.set("Select Emp. Code")
 def find():

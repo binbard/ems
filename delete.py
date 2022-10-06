@@ -27,8 +27,8 @@ def delete():
     writer=csv.writer(file,delimiter=",",lineterminator="\n")
     writer.writerows(data)
     file.close()
-    messagebox.showinfo("CSV","Record Deleted Sucessfully")
-    ans=messagebox.askquestion("CSV","Record Deleted Sucessfully\nWant to Delete More ? ")
+    messagebox.showinfo("CSV","Record has been deleted sucessfully")
+    ans=messagebox.askquestion("CSV","Record has been deleted sucessfully!\nWould you like to delete another record?")
     if ans=="yes":
         win.destroy()
         file.close()
@@ -42,7 +42,7 @@ def find():
     global eid,name,dept,salary
     u=eid.get()
     if u=="Select Emp. Code":
-        messagebox.showinfo("CSV","Please Select U.No.")
+        messagebox.showinfo("CSV","Please Select Emp. Code")
     elif len(u)>0 :
         file=open("records.csv")
         reader=csv.reader(file,delimiter=",")

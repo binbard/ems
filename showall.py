@@ -4,6 +4,12 @@ from tkinter import *
 import csv
 import os
 
+def onscroll(axis, *args):
+    if axis == 'y-axis':
+        canvas.yview(*args)
+    elif axis == 'x-axis':
+        canvas.xview(*args)
+
 global canvas
 win1=Tk()
 win1.title("EMS - Show all Employees")
