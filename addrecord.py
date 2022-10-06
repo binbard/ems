@@ -42,7 +42,10 @@ def main():
     global ele,eid,name,salary,dept,win
     win=Tk()
     win.title("EMS - Add Employee")
-    win.geometry("300x250")
+    window_height = 250
+    win_width = 330
+    win_resolution = str(win_width) + "x" + str(window_height)
+    win.geometry(win_resolution)
     win.config(bg="orange")
     if "nt" == os.name:
         win.wm_iconbitmap("logo.ico")

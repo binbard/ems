@@ -38,7 +38,10 @@ def find():
         reader=csv.reader(file,delimiter=",")
         for row in reader:
             if str(u)==str(row[0]):
-                win.geometry("350x250")
+                win_width=400
+                win_height=250
+                win_resolution=str(win_width)+"x"+str(win_height)
+                win.geometry(win_resolution)
                 name.set(row[1])
                 dept.set(row[2])
                 salary.set(row[3])
@@ -59,7 +62,10 @@ def main():
     global eid,name,dept,salary,win
     win=Tk()
     win.title("EMS - Edit Record")
-    win.geometry("350x80")
+    win_height=80
+    win_width=400
+    win_resolution=str(win_width)+"x"+str(win_height)
+    win.geometry(win_resolution)
     win.config(bg="orange")
     win.resizable(0,0)
     if "nt" == os.name:
@@ -90,7 +96,7 @@ def main():
     e2.place(x=140,y=130)
     e3=Entry(win,textvariable=salary,state="normal")
     e3.place(x=140,y=170)
-    Button(win,text="Find",bg="white",fg="brown",font=("Georgia",9),command=find).place(x=290,y=47)
+    Button(win,text="Find",bg="white",fg="brown",font=("Georgia",9),command=find).place(x=320,y=50)
     Button(win,text="Update",bg="white",fg="brown",font=("Georgia",9),command=update).place(x=150,y=200)
     win.bind("<Key>",press)
     win.mainloop()
