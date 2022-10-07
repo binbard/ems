@@ -19,6 +19,7 @@ snapshots #workspeaks
 ---
 ![edit.py](/snapshots/edit.png)
 ![delete.py](/snapshots/delete.png)
+![credits.py](/snapshots/credits.png)
 ---
 ---
 
