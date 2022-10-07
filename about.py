@@ -14,9 +14,9 @@ win.title("EMS - About")
 win.config(bg="white")
 win.resizable(0,0)
 if "nt" == os.name:
-    win.wm_iconbitmap("logo1.ico")
+    win.wm_iconbitmap("logo.ico")
 else:
-    win.wm_iconbitmap("@logo1.xbm")
+    win.wm_iconbitmap("@logo.xbm")
 win.geometry("350x200")
 label=Label(win,font=('Segoe Print',14,'bold'),bg='white')
 label.pack()

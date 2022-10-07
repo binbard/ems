@@ -59,7 +59,7 @@ def press(e):
     if u=="Select Emp. Code":
         messagebox.showinfo("CSV","Please Select Emp. Code")
     if repr(e.keycode)==67:
-           close()
+         close()
     elif len(u)>0 :
         if repr(e.keysym)=="'Return'":
             find()
@@ -73,9 +73,9 @@ def main():
     win.config(bg="orange")
     win.resizable(0,0)
     if "nt" == os.name:
-        win.wm_iconbitmap("logo1.ico")
+        win.wm_iconbitmap("logo.ico")
     else:
-        win.wm_iconbitmap("@logo1.xbm")
+        win.wm_iconbitmap("@logo.xbm")
     eid=StringVar()
     name=StringVar()
     dept=StringVar()

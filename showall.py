@@ -17,9 +17,9 @@ win1.geometry("450x360")
 win1.config(bg="orange")
 win1.resizable(0,0)
 if "nt" == os.name:
-    win1.wm_iconbitmap("logo1.ico")
+    win1.wm_iconbitmap("logo.ico")
 else:
-    win1.wm_iconbitmap("@logo1.xbm")
+    win1.wm_iconbitmap("@logo.xbm")
 frame=Frame(win1)
 frame.pack()
 yscrollbar = Scrollbar(frame, orient='vertical',command=lambda *args: onscroll('y-axis', *args))

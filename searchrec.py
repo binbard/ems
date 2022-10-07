@@ -43,9 +43,9 @@ def main():
     win.geometry("350x80")
     win.config(bg="orange")
     if "nt" == os.name:
-      win.wm_iconbitmap("logo1.ico")
+      win.wm_iconbitmap("logo.ico")
     else:
-       win.wm_iconbitmap("@logo1.xbm")
+       win.wm_iconbitmap("@logo.xbm")
     win.resizable(0,0)
     eid=StringVar()
     name=StringVar()
