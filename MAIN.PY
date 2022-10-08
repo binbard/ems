@@ -31,7 +31,10 @@ def onscroll(axis, *args):
 
 win=Tk()
 win.title("EMS")
-win.geometry("350x450")
+win_width = 350
+win_height = 480
+win_resolution = str(win_width)+"x"+str(win_height)
+win.geometry(win_resolution)
 win.config(bg="orange")
 win.resizable(0,0)
 if "nt" == os.name:
