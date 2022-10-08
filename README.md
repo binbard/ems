@@ -19,7 +19,6 @@ snapshots #workspeaks
 ---
 ![edit.py](/snapshots/edit.png)
 ![delete.py](/snapshots/delete.png)
-![credits.py](/snapshots/credits.png)
 ---
 ---
 
@@ -31,26 +30,26 @@ snapshots #workspeaks
 * python3
 * tkinter
 
-## Downloading and Executing
-* Download the repo
-* Run the main.py file
+## CONTRIBUTING
+Checkout [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 ---
 
-## To do's
+## Tasks
 
 - [ ] Make onefile executable (.exe) for release. <br> [Hint: pyinstaller || py2exe ]
+- [ ] Implement a theme system (maybe xml config based) (Hint: A new Settings button -> settings.py -> Change theme )
+- [x] Compatible for linux 
+- [ ] Fix auto focus issue while filling entries and changing fields using mouse in addrecord.py
+- [ ] Add more functionality like custom filter search based on salary
+- [ ] Can implement mysql version (without server just locally) (maybe sqlite) (Hint: A new Settings button -> settings.py -> Change storage )
 
 ---
 
 ### Help
 
-Feel free to post any issue.
-
-### Contribution
-
-Your contrution is fully welcomed. A little contibution too helps the project improve.
+Feel free to post any issue [here](https://github.com/uti1man/ems/issues)
 
 ### License
 
-This project is licensed under the [AGPLv3] License - see the LICENSE.md file for details.
+This project is licensed under the unmodified [AGPLv3] License - see the [LICENSE](/LICENSE) for details.
