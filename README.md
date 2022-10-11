@@ -1,5 +1,5 @@
 ---
-![ICON](/logo.ico)
+![ICON](/logo.gif)
 *Employee Management System
 ---
 
