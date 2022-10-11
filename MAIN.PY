@@ -1,9 +1,10 @@
 ﻿# Main file
 
-from tkinter import *
+import tkinter as tk
+from tkinter import*
 import csv
 import os
-
+import sys
 file=open("records.csv","a")
 file.close()
 def close():
@@ -29,7 +30,7 @@ def onscroll(axis, *args):
     else:
         assert False, f"axis {axis} is incorrect, use 'x-axis' or 'y-axis'"
 
-win=Tk()
+win=tk.Tk()
 win.title("EMS")
 win_width = 350
 win_height = 480
@@ -37,8 +38,10 @@ win_resolution = str(win_width)+"x"+str(win_height)
 win.geometry(win_resolution)
 win.config(bg="orange")
 win.resizable(0,0)
+image = tk.Image('photo',file ='C:\\Users\\logo.gif')
+
 if "nt" == os.name:
-    win.wm_iconbitmap("logo.ico")
+    win.tk.call('wm','iconphoto',win._w,image)
 else:
     win.wm_iconbitmap("@logo.xbm")
 Label(win,text="Employee Management System",bg="brown",fg="white",font=("Georgia",16)).pack(pady=10)
