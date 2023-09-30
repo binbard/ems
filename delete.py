@@ -62,7 +62,7 @@ def press(e):
     if u=="Select Emp. Code":
         messagebox.showinfo("CSV","Please Select Emp. Code")
     if repr(e.keycode)==67:
-        close()
+         close()
     elif len(u)>0 :
         if repr(e.keysym)=="'Return'":
             find()

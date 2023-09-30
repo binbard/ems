@@ -43,7 +43,6 @@ else:
     win.wm_iconbitmap("@logo.xbm")
 Label(win,text="Employee Management System",bg="brown",fg="white",font=("Georgia",16)).pack(pady=10)
 b1=Button(win,text="Show all Records",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=showall)
-b1.pack(pady=8)
 b2=Button(win,text="Add Record",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=addrec)
 b2.pack(pady=8)
 b3=Button(win,text="Search Records",bg="white",fg="brown",border=5,relief="raise",font=("Georgia",13),width=20,command=searchrec)
